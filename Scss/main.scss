@@ -170,6 +170,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+    height:165px;
 
     &:hover {
       opacity: 0.5;
@@ -181,16 +182,20 @@ main {
 // Button styles
 .btn {
   display: block;
-  padding: 0.3rem 1rem;
+  padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
-  font-size: 20px;
-  border-radius: 5px;
   text-align: center;
+  font-size: 1.3rem;
+  border-radius: 5px;
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
   }
+  p{
+    margin: 0;
+  }
+
 }
 
 .btn-dark {
@@ -204,6 +209,7 @@ main {
   background: lighten($primary-color, 50);
   color: #333;
 }
+
 
 
 
